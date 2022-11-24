@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+#root {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+h1 {
+    color: rgb(232, 222, 218);
+    font-size: 6em;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.paragraph {
+    display: inline-block;
+    color: rgb(158, 192, 221);
+}
+
+
+.fa-facebook {
+    color: blue;
+    font-size: larger;
+
+}
+
+#all {
+    display: inline-block;
+}
+
+.fa-instagram {
+    color: red;
+}
+
+#icons {
+    display: flex;
+    border-color: chartreuse;
+
+}
+
+.fa-twitter {
+    color: blue;
+}
+
+#icons {
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+#myimg {
+    width: 400px;
+}
+
+#image {
+    height: 30em;
+}
+
+#cv {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    margin-top: 3em;
+}
+
+#download {
+    margin-left: 94px;
+    color: aliceblue;
+    padding: 5px;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+}
+
+#midsection {
+    background-color: rgb(24, 21, 21);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+h2 {
+    color: white;
+}
+
+#info {
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+}
+
+#about {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+}
+
+#contact {
+    border-color: aqua;
+    position: absolute;
+    right: 20%;
+    top: 35%;
+}
+
+#detail {
+    display: flex;
+}
+
+#contactme {
+    color: aliceblue;
+}
+
+#mail {
+    color: white;
+}
+
+#no {
+    color: aliceblue;
+}
+h4{
+    color: aliceblue;
+    font-size: 2em;
+    
+    
+}
+#address{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(42, 4, 4);
+    align-items: center;
+    justify-content: center;
+}
+#bhusawal{
+    color: aliceblue;
+}
+#footer{
+    margin-left:600px;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:744px) {
+    #root {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    #midesction{
+        position: relative;
+    }
+    #contact{
+        justify-content: center;
+        align-items: center;
+        margin-top: 10em;
+        
+        
+    }
+    
+    
+
+}
+
+@media (max-width:743px) {
+    #root {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 11em;
+    }
+   
+
+}
+
+@media (max-width:580px) {
+    #root {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5em;
+    }
+   
+
+}
+
+@media (max-width:412px) {
+    #root {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+    }
+
+    #image {
+        width: 30em;
+        height: 18em;
+    }
+    #contact{
+        margin-top: 78px;
+        width: 26em;
+
+    }
+    #cv{
+        margin-bottom: 20px;
+    }
+
+  
+}
+
+@media (min-width:413px) and (max-width:482px) {
+    #root {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3em;
+    }
+
+    #image {
+        height: 30em;
+        width: 26em;
+    }
+  
+
+}
+
+@media (max-width:360px) {
+    #root {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #image {
+        height: 21em;
+        width: 23em;
+    }
+    #midsection{
+        height: 50vh;
+    }
+
+    #contact{
+        margin-top: 100px;
+        
+        
+        
+    }
+    #footer{
+        
+        
+        
+    }
+    #address{
+        height: 25vh;
+    }
+    #cv{
+        margin-bottom: 20px;
+        margin-left: 10px;
+       
+    }
+    #about{
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+    h1{
+        margin-left: 13px;
+    }
+    .paragraph{
+        margin-left: 13px;
+    }
+    
+       
+}
+@media (max-width:980px){
+    #midsection{
+        display: block;
+        position: relative;
+        }
+        #about{
+            position: absolute;
+            top: 5%;
+        }
+        #contact{
+            position: absolute;
+            left: 10%;
+            top: 46%;
+        }
+        #footer{
+            margin-left: 70px;
+        }
+
+   
+    
+    
+    
+
+} 
